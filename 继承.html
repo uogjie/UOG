@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <script>
+       function Person(name) {
+           this.name = name;
+           this.age = 23;
+       }
+       Person.prototype.sayName = function () {
+           alert(this.name);
+       };
+
+       function Stu(name) {
+           Person.call(this,name);
+       }
+       Stu.prototype = Object.create(Person.prototype);
+       Stu.prototype.constructor = Stu;
+
+       Stu.prototype.sayName = function () {
+           alert(111);
+       };
+
+       var i = new Stu("wj");
+       alert(i.name);
+       alert(i.age);
+       i.sayName();
+
+       var aa = new Person("aaaaa");
+       alert(aa.age);
+       alert(aa.name);
+       aa.sayName();
+    </script>
+</body>
+</html>
