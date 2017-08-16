@@ -1,0 +1,58 @@
+
+.top{
+    font-size: small;
+    border-bottom: 1px solid rgb(140, 132, 47);
+    color: #996633;
+}
+.top-div{
+    /*padding-top: 0.5em;*/
+    /*padding-bottom: 0.5em;*/
+    height:3em;
+    width:75%;
+    line-height:3em;
+}
+.top-dizhi{
+    display: inline-block;
+    background: url("../image/header/dizhijiantou.png");
+    width: 9px;
+    height: 12px;
+}
+.top-vip{
+    vertical-align: middle;
+    display: inline-block;
+    background: url("../image/header/vipimage.png");
+    width: 18px;
+    height: 18px;
+}
+.top-nav{
+    /*height:3em;*/
+    /*line-height:3em;*/
+    display: inline;
+    float: right;
+    position: relative;
+}
+.top-nav span{
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+.top-nav a:link{
+    text-decoration: none;
+    color: #996633;
+}
+.top-nav a:visited{
+    text-decoration: none;
+    color: #996633;
+}
+.top-nav a div{
+    height: auto;
+    width: 7em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    position: absolute;
+    margin-left: -7em;
+    /*float: right;*/
+    /*vertical-align: -3px;*/
+}
+

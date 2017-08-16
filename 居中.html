@@ -1,0 +1,82 @@
+<html>
+<head>
+    <style>
+        .div1{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            margin: 0 auto;              /*块元素-水平居中*/        /* */
+        }
+
+        .div-span1{
+            line-height: 200px;          /*块元素内->内联元素-垂直居中*/
+            text-align:center;           /*块元素内->内联元素-水平居中*/
+            height: 200px;
+            font-size: 36px;
+            background-color: #ccc;
+        }
+
+        .div-div1{
+            margin:0 auto;
+            width:200px;
+            height:200px;
+            background-color:red;
+        }
+        .c1{
+            width: 100px;
+            height: 100px;
+            padding: 50px;
+            background-color: black;
+            background-clip:content-box; /*居中的关键*/
+        }
+
+        .div-div2{
+            width:200px;
+            height:200px;
+            background-color:yellow;
+            position:relative;                            /*相对布局*/
+        }
+        .c2{
+            left:50%; top:50%;
+            transform:translate(-50%,-50%);               /*原定位点为margin左上角-->中心*/
+            -webkit-transform:translate(-50%,-50%);
+            background-color:gray;
+            position:absolute;                            /*绝对布局->left:50%; top:50%;*/
+        }
+
+        .div-div3{
+            width:200px;
+            height:200px;
+            background-color:yellow;
+            position:relative;                      /*相对布局*/
+        }
+        .c3{
+            width: 50%;
+            height: 50%;                            /*高度必须定义*/
+            overflow: auto;                         /*防止内容溢出*/
+            margin: auto;                           /*必需.由margin撑起位置*/
+            position: absolute;                     /*绝对布局*/
+            top: 0; left: 0; bottom: 0; right: 0;   /*或top: 25%; left: 25%;*/
+            background-color: #996633;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="div1"></div>
+    <div class="div-span1">w3cschool</div>
+    <div class="div-div1">
+        <div class="c1">Hello World</div>
+    </div>
+    <div class="div-div2">
+        <div class="c2">Hello World</div>
+    </div>
+    <br>
+    <div class="div-div3">
+        <div class="c3">Hello World1 11111111 111111 11111111 11111111 111111111111 11111111111111111</div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+.header{
+    height: 93px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.header-logo{
+    background: url("../image/header/logo.png") no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 93px;
+    float: left;
+}
+.kuang input{
+    background: url("../image/header/kuang.png") no-repeat;
+    background-size: contain;
+    width: 385px;
+    height: 40px;
+    border: none;
+    display: inline;
+    float: left;
+}
+.anniu input{
+    background: url("../image/header/shous.png") no-repeat;
+    background-size: contain;
+    width:  87px;
+    height: 40px;
+    display: inline;
+    border: none;
+    float: left;
+}
+.header-shoushuo-top{
+    font-size: small;
+    display: inline-block;
+    float: left;
+    width: 475px;
+    margin-bottom: 0.3em;
+}
+.header-shoushuo-top span{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.header-shoushuo-top a:link{
+    color: rgb(140, 132, 47);
+    text-decoration: none;
+}
+.header-shoushuo-top a:visited{
+    color: rgb(140, 132, 47);
+    text-decoration: none;
+}
+.header-shoushuo-top a:hover{
+    color: rgb(140, 132, 47);
+    text-decoration: none;
+}
+.herder-shoushuo{
+    display: inline;
+    float: left;
+    height: 70px;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.header-tele{
+    background: url("../image/header/tele.png") no-repeat;
+    width: 185px;
+    height: 64px;
+    margin-bottom: 0.5em;
+    margin-top: 1.5em;
+    margin-right: 2em;
+;
+    float: right;
+}
+
+.header-nav {
+    border-bottom: 2px solid rgb(140, 132, 47);
+}
+.nav-div{
+    font-size: 90%;
+    height: 3em;
+    clear: both;
+}
+.nav-div div{
+    height:3em;
+    width:6em;
+    display: inline-block;
+    text-align: center;
+
+}
+.nav-div span{
+    vertical-align: -1em;
+}
+#qqwb{
+    background: url("../image/header/qqwb.png") no-repeat;
+    background-size: contain;
+    width: 168px;
+    height: 16px;
+    float: right;
+    margin-top: 1em;
+}
+#nav-firstdiv{
+    background: rgb(140, 132, 47);
+    color: white;
+}
